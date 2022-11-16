@@ -43,3 +43,10 @@ python main_RealtimeGetData_BioSig.py
 First, select data from DataBase, then sort the characters according to USER_ID_NAME.csv, and then display their data in sequence.
 
 <img width="50%" src="https://github.com/fredericklee602/Biomedical-signal-real-time-display-system/blob/main/image/Bio_interface.PNG?raw=true" alt="Home Page">
+
+# Test
+```Shell
+python sql_insert_data.py 
+```
+
+If there is no sensor, you can try to use this program to do the method of writing to DataBase and making data.
