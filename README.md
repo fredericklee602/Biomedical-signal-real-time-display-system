@@ -1,5 +1,5 @@
 # Biomedical-signal-real-time-display-system
-Biomedical signals are displayed in real time, and sensors of body temperature, respiration and heartbeat are output to the database. This DataBase is built using MySQL Server, and data is read from this DataBase and then displayed on the Interface.
+Biomedical signals are displayed in real time, and sensors of body temperature, respiration and heartbeat are output to the DataBase. This DataBase is built using MySQL Server, and data is read from this DataBase and then displayed on the Interface.
 # DataBase
 Use mysql server as DataBase. pymysql for using the connection package.
 
