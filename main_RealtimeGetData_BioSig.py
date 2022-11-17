@@ -73,6 +73,8 @@ class AppWindow(QMainWindow):
                 name_list.append(USER_ID_NAME_df["任務位置"][i])
             self.macid_list = macid_list_sort[:self.plot_num]
             name_list = name_list[:self.plot_num]
+        if len(name_list)<self.plot_num:
+            name_list.extend(["NULL"]*(self.plot_num-len(name_list)))
         self.ui = Ui_MainWindow(name_list)
 
         self.ui.setupUi(self)
